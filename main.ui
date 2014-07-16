@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object class="GtkWindow" id="main">
+        <property name="visible">True</property>
+        <property name="title">Hello, World!</property>
+        <property name="border-width">10</property>
+        <child>
+            <object id="grid" class="GtkGrid">
+                <property name="visible">True</property>
+                <child>
+                    <object class="GtkButton" id="btnHello">
+                        <property name="label">Hello!</property>
+                        <property name="visible">True</property>
+                        <property name="border-width">10</property>
+                    </object>
+                </child>
+            </object>
+        </child>
+    </object>
+</interface>

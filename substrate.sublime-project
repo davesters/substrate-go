@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"settings": {
+	    "name": "substrate",
+	    "sublimegdb_rargs":"",
+	    "sublimegdb_commandline": "gdb --interpreter=mi --args ${binp} ${args}",
+	    "sublimegdb_workingdir": "${ppath}",
+	    "sublimegdb_go_project": true
+	    //Configure Plugin#2
+	}
+}
